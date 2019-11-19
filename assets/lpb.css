@@ -1,0 +1,181 @@
+BODY {
+	COLOR: black;
+	FONT-FAMILY: verdana,geneva,arial,helvetica,sans-serif;
+	FONT-SIZE: 8pt;
+	margin-top: 3pt;
+}
+P {
+	FONT-FAMILY: verdana,geneva,arial,helvetica,sans-serif; FONT-SIZE: 8pt
+}
+UL {
+	FONT-FAMILY: verdana,geneva,arial,helvetica,sans-serif; FONT-SIZE: 8pt
+}
+LI {
+	FONT-FAMILY: verdana,geneva,arial,helvetica,sans-serif; FONT-SIZE: 8pt; margin-left: 13pt;
+}
+OL {
+	FONT-FAMILY: verdana,geneva,arial,helvetica,sans-serif; FONT-SIZE: 8pt; margin-left: 13pt;
+}
+FORM {
+	FONT-FAMILY: verdana,geneva,arial,helvetica,sans-serif; FONT-SIZE: 8pt
+}
+INPUT {
+	FONT-FAMILY: verdana,geneva,arial,helvetica,sans-serif; FONT-SIZE: 8pt
+}
+A {
+	TEXT-DECORATION: none;
+}
+A:link {
+	COLOR: DarkBlue;
+}
+A:visited {
+	COLOR: DarkBlue;
+}
+A:active {
+	COLOR: White;
+}
+A:hover {
+	BACKGROUND-COLOR: transparent;
+	COLOR: Red;
+	TEXT-DECORATION: underline;
+}
+TABLE {
+	FONT-FAMILY: verdana,geneva,arial,helvetica,sans-serif; FONT-SIZE: 8pt
+}
+TR {
+	FONT-FAMILY: verdana,geneva,arial,helvetica,sans-serif; FONT-SIZE: 8pt
+}
+TD {
+	COLOR: Navy;
+	FONT-FAMILY: verdana,geneva,arial,helvetica,sans-serif;
+	FONT-SIZE: 8pt;
+}
+.Message {
+	BORDER-LEFT: black 1px solid; COLOR: #000000; FONT-FAMILY: verdana, geneva, arial, helvetica, sans-serif; FONT-SIZE: 8pt; PADDING-LEFT: 10px
+}
+TD.MessageName {
+	
+}
+.Name {
+	COLOR: maroon; FONT-FAMILY: verdana, geneva, arial, helvetica, sans-serif; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+.LoggedIn {
+	COLOR: #c0c0c0; FONT-FAMILY: verdana, geneva, arial, helvetica, sans-serif; FONT-SIZE: 8pt
+}
+.LoggedOut {
+	COLOR: #c0c0c0; FONT-FAMILY: verdana, geneva, arial, helvetica, sans-serif; FONT-SIZE: 8pt
+}
+.Error {
+	COLOR: #ff0000; FONT-FAMILY: verdana, geneva, arial, helvetica, sans-serif; FONT-SIZE: 8pt
+}
+.Info {
+	COLOR: green; FONT-FAMILY: verdana, geneva, arial, helvetica, sans-serif; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+HTML {
+	FONT-FAMILY: verdana, helvetica, sans-serif
+}
+INPUT.editField {
+	BACKGROUND-COLOR: #f6f6f6; BORDER-BOTTOM-COLOR: #f3f3f3; BORDER-LEFT-COLOR: #f3f3f3; BORDER-RIGHT-COLOR: #f3f3f3; BORDER-TOP-COLOR: #f3f3f3; COLOR: #000000; FONT-SIZE: 8pt
+}
+.infoHeader {
+	COLOR: #000000; FONT-FAMILY: verdana, geneva, arial, helvetica, sans-serif; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+.infoText {
+	FONT-SIZE: 8pt
+}
+.Cinfo {
+	FONT-SIZE: 8pt
+}
+
+
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+
+#menu{
+	position:absolute;
+	top: 0px;
+	left: 0;
+	right: 0;
+	width:160;
+	background-color: #ffffff;
+}
+
+h3{
+ font: bold 200% Arial,sans-serif;
+ color: #334d55;
+ margin: 0px;
+ padding: 0px;
+}
+
+#tl {
+	position:absolute;
+	top: -1px;
+	left: -1px;
+	margin: 0px;
+	padding: 0px;
+	z-index: 100;
+}
+
+#tr {
+	position:absolute;
+	top: -1px;
+	right: -1px;
+	margin: 0px;
+	padding: 0px;
+	z-index: 100;
+}
+
+#menuNav{
+	float: left;
+	width:160px;
+	padding: 0px;
+	background-color: #F5f7f7;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	font: Verdana,sans-serif;
+}
+
+
+/***********************************************/
+/* menuLinks styles                         */
+/***********************************************/
+
+#menuLinks{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#menuLinks a:link, #menuLinks a:visited {
+	display: block;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #cccccc;
+	background-image:  url("menubg.jpg");
+	padding: 3px 0px 3px 10px;
+	color: #21536A;
+}
+
+#menuLinks a:hover{
+	border-top: 1px solid #cccccc;
+	background-color: #DDEEFF;
+	background-image: none;
+	text-decoration: none;
+}
+
+#menuLPB{
+	font-family: Verdana;
+	font-style: normal;
+	color: Maroon;
+}
+
+#menuLPB a:link, #menuLPB a:visited {
+	color: #00008B;
+}
+
+#menuLPB a:hover{
+	background-color: transparent;
+	text-decoration: underline;
+	font-weight : bold;
+	color: Red;
+}
