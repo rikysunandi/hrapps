@@ -34,7 +34,7 @@ define('DBPASSWORD','');
 define('DBNAME', 'import_DB');
 define('SITE_URL', $config['base_url']);
 // windows path
-define('BASH_PATH', 'D:/xampp/htdocs/bo/');	
+define('BASH_PATH', 'C:/xampp7/htdocs/hrapps/');	
 // ubuntu path
 //define('BASH_PATH', 'var/www/techarise-import-excel-file-mysql-codeigniter/');	
 define('USER_IP_ADDRESS', $_SERVER['REMOTE_ADDR']);

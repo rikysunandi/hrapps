@@ -77,12 +77,12 @@ $db['default'] = array(
 	'dsn'	=> '',
 	//'hostname' => 'localhost:4040',
   	
-  	'hostname' => '10.2.1.59:9306',
+  	'hostname' => '119.81.19.206:3306',
   	//'hostname' => '127.0.0.1:3306',
-	'username' => 'root',
-	'password' => 'D@shb04rd4dx',
+	'username' => 'mahakary_hrapps',
+	'password' => 'zxcvbnm88@@',
 	//'password' => 'admin123',
-	'database' => 'dashboard',
+	'database' => 'mahakary_hrapps',
 	/*
 	'hostname' => '10.2.6.48:4040',
 	'username' => 'root',
